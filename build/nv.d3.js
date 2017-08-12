@@ -12943,7 +12943,7 @@ nv.models.scatter = function() {
 						//console.log("Hello");
 						//console.log(point);
 						
-						paper.html("<b> Number of Papers:</b> "+point.size+"</br></br>"+point.desc+ " \u00B0").style("visibility", "visible");
+						paper.html("<b> Number of Papers:</b> "+point.size+"</br></br>"+point.desc).style("visibility", "visible");
 						/*
 						mDispatch({
                             point: point,
