@@ -150,14 +150,14 @@ app.controller("democontroller", function($scope) {
 				console.log(e);
 			});
 			$scope.dispatch.on("mouseover", function(e) {
-				paper.text("This will have the citations").style("visibility", "visible");
+				//paper.text("This will have the citations").style("visibility", "visible");
 				return tooltip.text(e.y + ": " + e.x + " (" + e.value + ")").style("visibility", "visible");
 			})
 			$scope.dispatch.on("mousemove", function(e) {
 				return tooltip.style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 10) + "px");
 			})
 			$scope.dispatch.on("mouseout", function(e) {
-				paper.style("visibility", "hidden");
+				//paper.style("visibility", "hidden");
 				return tooltip.style("visibility", "hidden");
 			});
 		}
