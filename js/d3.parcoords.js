@@ -695,7 +695,7 @@ pc.highlight = function(data) {
 	 div.transition()		
                 .duration(200)		
                 .style("opacity", .9);		
-    div.html(data[0].Citation + "<br/> <br /> Description: "+data[0].Description+ "<br />  <br />   SoV: "+data[0].CommentsSoV+ "<br />  <br />   CET: "+data[0].CommentsCET+ "<br />  <br />   CVG: "+data[0].CommentsCVG )	
+    div.html(data[0].Citation + "<br/> <br /> Description: "+data[0].Description+ "<br />  <br />   SoV: "+data[0].CommentsSoV+ "<br />  <br />   CET: "+data[0].CommentsCET+ "<br />  <br />   CVB: "+data[0].CommentsCVB )	
                 .style("left", (d3.event.pageX) + "px")		
                 .style("top", (d3.event.pageY - 28) + "px");	
             					
